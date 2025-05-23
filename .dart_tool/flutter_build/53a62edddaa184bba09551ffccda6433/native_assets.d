@@ -1,0 +1,1 @@
+ C:\\Users\\Ema\\Desktop\\movie_app_you\\swiss_streaming\\.dart_tool\\flutter_build\\53a62edddaa184bba09551ffccda6433\\native_assets.yaml: 

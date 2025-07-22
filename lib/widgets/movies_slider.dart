@@ -19,7 +19,7 @@ class MoviesSlider extends StatelessWidget {
         itemCount: snapshot.data!.length,
         itemBuilder: (context, index) {
           return Padding(
-            //wrap al container para que quede fila separada
+            //Wrap al Container para que quede fila separada
             padding: const EdgeInsets.all(8.0),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8),

@@ -6,7 +6,7 @@ import 'package:swiss_streaming/models/movie.dart';
 
 class Api {
   static const _trendingUrl =
-      'https://api.themoviedb.org/3/trending/movie/day?language=es-ES?api_key=${Constants.apiKey}'; // ya no necesita api_key en la URL
+      'https://api.themoviedb.org/3/trending/movie/day?language=es-ES?api_key=${Constants.apiKey}'; // No necesita api_key en la URL
 
   static const _topRatedUrl =
       'https://api.themoviedb.org/3/movie/top_rated?api_key=${Constants.apiKey}';

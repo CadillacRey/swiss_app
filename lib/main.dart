@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:swiss_streaming/colours.dart';
-import 'package:swiss_streaming/home_screen.dart';
+import 'package:swiss_streaming/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());

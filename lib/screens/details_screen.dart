@@ -42,7 +42,7 @@ class DetailsScreen extends StatelessWidget {
                 ),
             ),
             background: Image.network(
-            '${Constants.imagePath} ${movie.backDropPath}',
+            '${Constants.imagePath}${movie.backDropPath}',
             filterQuality: FilterQuality.high,
             fit: BoxFit.cover,
               ),

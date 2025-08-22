@@ -24,7 +24,7 @@ class TrendingSlider extends StatelessWidget {
           viewportFraction: 0.55,
           enlargeCenterPage: true,
           pageSnapping: true,
-          autoPlayCurve: Curves.fastOutSlowIn, //autoplay!
+          autoPlayCurve: Curves.fastOutSlowIn, //Autoplay!
           autoPlayAnimationDuration: const Duration(seconds: 1),
         ),
         itemBuilder: (context, itemIndex, pageViewIndex) {
@@ -40,7 +40,7 @@ class TrendingSlider extends StatelessWidget {
               );
             },
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(12), //RENDONDEA
+              borderRadius: BorderRadius.circular(12), //Redondea
               child: SizedBox(
                 //Le hice un Wrap al container con widget > ClipRRect
                 height: 300,

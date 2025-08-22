@@ -6,7 +6,7 @@ import 'package:swiss_streaming/models/movie.dart';
 
 class Api {
   static const _trendingUrl =
-      'https://api.themoviedb.org/3/trending/movie/day?language=es-ES?api_key=${Constants.apiKey}'; // No necesita api_key en la URL
+      'https://api.themoviedb.org/3/trending/movie/day?language=es-ES?api_key=${Constants.apiKey}';
 
   static const _topRatedUrl =
       'https://api.themoviedb.org/3/movie/top_rated?api_key=${Constants.apiKey}';
@@ -25,7 +25,7 @@ class Api {
 
     if (response.statusCode == 200) {
       final decodedData = json.decode(response.body)['results'] as List;
-      //print(decodedData);
+      print(decodedData);
       return decodedData.map((movie) => Movie.fromJson(movie)).toList();
     } else {
       throw Exception('Fallo la llamada a la API: ${response.statusCode}');
@@ -43,7 +43,7 @@ class Api {
 
     if (response.statusCode == 200) {
       final decodedData = json.decode(response.body)['results'] as List;
-      //print(decodedData);
+      print(decodedData);
       return decodedData.map((movie) => Movie.fromJson(movie)).toList();
     } else {
       throw Exception('Fallo la llamada a la API: ${response.statusCode}');
@@ -61,7 +61,7 @@ class Api {
 
     if (response.statusCode == 200) {
       final decodedData = json.decode(response.body)['results'] as List;
-      //print(decodedData);
+      print(decodedData);
       return decodedData.map((movie) => Movie.fromJson(movie)).toList();
     } else {
       throw Exception('Fallo la llamada a la API: ${response.statusCode}');
